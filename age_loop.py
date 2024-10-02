@@ -6,3 +6,13 @@ for i in range(age):
 name = input("Enter your name:\n")
 
 print("The first letter of your name is " + name[0])
+
+for letter in name:
+    print(letter)
+
+name_length = len(name)
+i = 0
+
+while i < name_length:
+    print(name[i])
+    i = i + 1
