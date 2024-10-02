@@ -15,4 +15,4 @@ i = 0
 
 while i < name_length:
     print(name[i])
-    i = i + 1
+    i += 1
