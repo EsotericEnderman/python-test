@@ -5,7 +5,10 @@ seen_vowels = []
 string_input = input("Please enter a string: ")
 unique_vowel_count = 0
 
-for letter in string_input:
+letter_index = 0
+
+while letter_index < len(string_input):
+    letter = string_input[letter_index]
     if letter in english_vowels:
         if letter not in seen_vowels:
             seen_vowels.append(letter)
