@@ -14,4 +14,4 @@ while letter_index < len(string_input):
         unique_vowel_count += 1
     letter_index += 1
 
-print("The string + '" + string_input + "' contains " + str(unique_vowel_count) + " unique vowels!")
+print("The string '" + string_input + "' contains " + str(unique_vowel_count) + " unique vowels!")
