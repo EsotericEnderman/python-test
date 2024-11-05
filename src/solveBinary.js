@@ -9,13 +9,13 @@ for (const bin of binary) {
 }
 
 function toOctal(bin) {
-    return parseInt(bin, 2).toString(8);
+    return parseFloat(bin, 2).toString(8);
 }
 
 function toHex(bin) {
-    return parseInt(bin, 2).toString(16);
+    return parseFloat(bin, 2).toString(16);
 }
 
 function toDecimal(bin) {
-    return parseInt(bin, 2).toString(10);
+    return parseFloat(bin, 2).toString(10);
 }
